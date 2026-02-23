@@ -36,4 +36,3 @@ next-env.d.ts
 # Scripts (不需要部署)
 scripts/
 data/
-.github/

@@ -1,0 +1,61 @@
+name: AI Weekly Report
+
+on:
+  schedule:
+    # 每周日 7:00 AM UTC (北京时间 15:00)
+    - cron: '0 7 * * 0'
+  workflow_dispatch: # 手动触发
+
+jobs:
+  generate-report:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: |
+          npm install
+          npm install node-fetch
+
+      - name: Get Feishu Access Token
+        id: feishu-token
+        run: |
+          RESPONSE=$(curl -s -X POST \
+            "https://open.feishu.cn/open-apis/auth/v3/tenant_access_token/internal" \
+            -H "Content-Type: application/json" \
+            -d '{
+              "app_id": "${{ secrets.FEISHU_APP_ID }}",
+              "app_secret": "${{ secrets.FEISHU_APP_SECRET }}"
+            }')
+          TOKEN=$(echo $RESPONSE | jq -r '.tenant_access_token')
+          echo "token=$TOKEN" >> $GITHUB_OUTPUT
+          echo "Access token obtained"
+
+      - name: Generate Weekly Report
+        env:
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+          FEISHU_ACCESS_TOKEN: ${{ steps.feishu-token.outputs.token }}
+          FEISHU_BITABLE_APP_TOKEN: ${{ secrets.FEISHU_BITABLE_APP_TOKEN }}
+          FEISHU_BITABLE_TABLE_ID: ${{ secrets.FEISHU_BITABLE_TABLE_ID }}
+        run: |
+          node scripts/generate-weekly.js
+
+      - name: Trigger Vercel Build
+        if: env.VERCEL_BUILD_HOOK != ''
+        env:
+          VERCEL_BUILD_HOOK: ${{ secrets.VERCEL_BUILD_HOOK }}
+        run: |
+          curl -X POST "${{ secrets.VERCEL_BUILD_HOOK }}"
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: weekly-report
+          path: data/
