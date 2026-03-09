@@ -1,8 +1,77 @@
 "use client";
 
 import { categoryLabels, getLatestWeek, getAllWeeks, Category, Article } from "@/lib/data";
+import { FEISHU_CONFIG, formatDate } from "@/lib/feishu";
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+
+// 获取飞书 Access Token
+async function getFeishuAccessToken(): Promise<string> {
+  const response = await fetch('https://open.feishu.cn/open-apis/auth/v3/tenant_access_token/internal', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+    app_id: FEISHU_CONFIG.appId,
+    app_secret: FEISHU_CONFIG.appSecret,
+    }),
+  });
+
+  const data = await response.json();
+  
+  if (data.code !== 0) {
+    throw new Error(data.msg || '获取 access token 失败');
+  }
+
+  return data.tenant_access_token;
+}
+
+// 从飞书获取文章数据
+async function fetchArticles(): Promise<Article[]> {
+  try {
+    // 如果没有配置飞书凭据，返回空数组
+    if (!FEISHU_CONFIG.appId || !FEISHU_CONFIG.appSecret) {
+      console.warn('飞书 API 未配置，请设置环境变量');
+      return [];
+    }
+
+    const accessToken = await getFeishuAccessToken();
+    
+    const response = await fetch(
+      `https://open.feishu.cn/open-apis/bitable/v1/apps/${FEISHU_CONFIG.appToken}/tables/${FEISHU_CONFIG.tableId}/records?page_size=500`,
+      {
+        headers: {
+          'Authorization': `Bearer ${accessToken}`,
+        },
+      }
+    );
+
+    const data = await response.json();
+    
+    if (data.code !== 0) {
+      console.error('获取数据失败:', data.msg);
+      return [];
+    }
+
+    // 转换数据格式
+    const articles = data.data.items.map((item: any) => ({
+      id: item.record_id,
+      title: item.fields['标题'] || '',
+      summary: item.fields['摘要'] || '',
+      source: item.fields['来源'] || 'Web',
+      url: item.fields['链接']?.link || '',
+      category: item.fields['分类'] || 'llm',
+      week: item.fields['周次'] || '',
+      publishedAt: formatDate(item.fields['发布日期']),
+    }));
+
+    return articles;
+  } catch (error: any) {
+    console.error('获取文章失败:', error);
+    return [];
+  }
+}
 
 function Header() {
   return (
@@ -101,9 +170,17 @@ function CategoryTile({ category, count }: { category: Category; count: number }
   );
 }
 
-export default function HomePage({ initialArticles }: { initialArticles: Article[] }) {
-  const [articles] = useState<Article[]>(initialArticles);
+export default function HomePage() {
+  const [articles, setArticles] = useState<Article[]>([]);
   const [selectedCategory, setSelectedCategory] = useState<Category | null>(null);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    fetchArticles().then((data) => {
+      setArticles(data);
+      setLoading(false);
+    });
+  }, []);
 
   const latestWeek = getLatestWeek(articles);
   const allWeeks = getAllWeeks(articles);
@@ -178,7 +255,11 @@ export default function HomePage({ initialArticles }: { initialArticles: Article
 
           {/* Articles Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {filteredArticles.length === 0 ? (
+            {loading ? (
+              <div className="col-span-2 text-center py-12 text-mist">
+                加载中...
+              </div>
+            ) : filteredArticles.length === 0 ? (
               <div className="col-span-2 text-center py-12 text-mist">
                 暂无数据
               </div>
