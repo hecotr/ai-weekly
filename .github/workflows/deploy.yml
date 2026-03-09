@@ -30,13 +30,16 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build
-        run: npm run build
+      - name: Fetch articles from Feishu
+        run: npx ts-node scripts/fetch-articles.ts
         env:
           NEXT_PUBLIC_FEISHU_APP_ID: ${{ secrets.FEISHU_APP_ID }}
           NEXT_PUBLIC_FEISHU_APP_SECRET: ${{ secrets.FEISHU_APP_SECRET }}
           NEXT_PUBLIC_FEISHU_BITABLE_APP_TOKEN: ${{ secrets.FEISHU_BITABLE_APP_TOKEN }}
           NEXT_PUBLIC_FEISHU_BITABLE_TABLE_ID: ${{ secrets.FEISHU_BITABLE_TABLE_ID }}
+
+      - name: Build
+        run: npm run build
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
