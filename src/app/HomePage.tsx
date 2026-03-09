@@ -5,11 +5,6 @@ import { fetchArticlesFromStatic } from "@/lib/feishu";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 
-// 获取文章数据（从静态 JSON 文件）
-async function fetchArticles(): Promise<Article[]> {
-  return await fetchArticlesFromStatic();
-}
-
 function Header() {
   return (
     <header className="header">

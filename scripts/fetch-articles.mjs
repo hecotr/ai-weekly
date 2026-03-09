@@ -1,21 +1,21 @@
 // 构建时获取飞书数据的脚本
-// 运行: npx ts-node --esm scripts/fetch-articles.ts
+// 运行: node scripts/fetch-articles.mjs
 
-import * as fs from 'fs';
-import * as path from 'path';
+import fs from 'fs';
+import path from 'path';
 import { fileURLToPath } from 'url';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const FEISHU_CONFIG = {
-  appId: process.env.NEXT_PUBLIC_FEISHU_APP_ID || '',
-  appSecret: process.env.NEXT_PUBLIC_FEISHU_APP_SECRET || '',
-  appToken: process.env.NEXT_PUBLIC_FEISHU_BITABLE_APP_TOKEN || '',
-  tableId: process.env.NEXT_PUBLIC_FEISHU_BITABLE_TABLE_ID || '',
+  appId: process.env.FEISHU_APP_ID || '',
+  appSecret: process.env.FEISHU_APP_SECRET || '',
+  appToken: process.env.FEISHU_BITABLE_APP_TOKEN || '',
+  tableId: process.env.FEISHU_BITABLE_TABLE_ID || '',
 };
 
-async function getFeishuAccessToken(): Promise<string> {
+async function getFeishuAccessToken() {
   const response = await fetch('https://open.feishu.cn/open-apis/auth/v3/tenant_access_token/internal', {
     method: 'POST',
     headers: {
@@ -36,7 +36,7 @@ async function getFeishuAccessToken(): Promise<string> {
   return data.tenant_access_token;
 }
 
-function formatDate(timestamp: number): string {
+function formatDate(timestamp) {
   if (!timestamp) return '';
   const date = new Date(timestamp);
   return date.toISOString().split('T')[0];
@@ -45,10 +45,12 @@ function formatDate(timestamp: number): string {
 async function fetchArticles() {
   if (!FEISHU_CONFIG.appId || !FEISHU_CONFIG.appSecret) {
     console.warn('飞书 API 未配置，请设置环境变量');
+    console.warn('需要的变量: FEISHU_APP_ID, FEISHU_APP_SECRET, FEISHU_BITABLE_APP_TOKEN, FEISHU_BITABLE_TABLE_ID');
     return [];
   }
 
   console.log('开始获取飞书数据...');
+  console.log('App ID:', FEISHU_CONFIG.appId.substring(0, 10) + '...');
   
   const accessToken = await getFeishuAccessToken();
   console.log('获取 access token 成功');
@@ -69,7 +71,7 @@ async function fetchArticles() {
     return [];
   }
 
-  const articles = data.data.items.map((item: any) => ({
+  const articles = data.data.items.map((item) => ({
     id: item.record_id,
     title: item.fields['标题'] || '',
     summary: item.fields['摘要'] || '',
@@ -98,4 +100,7 @@ async function main() {
   console.log(`数据已保存到: ${outputPath}`);
 }
 
-main().catch(console.error);
+main().catch(err => {
+  console.error('错误:', err);
+  process.exit(1);
+});

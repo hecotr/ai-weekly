@@ -6,11 +6,6 @@ import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { Suspense, useState, useEffect } from "react";
 
-// 获取文章数据（从静态 JSON 文件）
-async function fetchArticles(): Promise<Article[]> {
-  return await fetchArticlesFromStatic();
-}
-
 function Header() {
   return (
     <header className="header">
@@ -140,7 +135,7 @@ function ArchiveContent() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetchArticles().then((data) => {
+    fetchArticlesFromStatic().then((data) => {
       setArticles(data);
       setLoading(false);
     });

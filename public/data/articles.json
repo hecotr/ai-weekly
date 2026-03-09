@@ -1,1 +1,592 @@
-[]
+[
+  {
+    "id": "recvc2MwmUkG7x",
+    "title": "Anthropic Says Its Newest AI Model Is Getting Pretty Good at Using a Computer - CNET",
+    "summary": "Anthropic 表示其最新的 Claude 模型在使用计算机方面越来越熟练，可以自主完成浏览网页、操作软件等任务，标志着 AI Agent 的重要进步。",
+    "source": "Web",
+    "url": "https://www.cnet.com/tech/services-and-software/anthropic-says-its-newest-ai-model-is-getting-pretty-good-at-using-a-computer/",
+    "category": "llm",
+    "week": "2026-W09",
+    "publishedAt": "2026-02-23"
+  },
+  {
+    "id": "recvc2MwN5szTT",
+    "title": "Anthropic releases Claude Sonnet 4.6: Benchmark performance, how to try it - Mashable",
+    "summary": "Anthropic 发布最新旗舰模型 Claude Sonnet 4.6，在实用推理、代码理解等方面表现优异，价格与前代相同。",
+    "source": "Web",
+    "url": "https://mashable.com/article/anthropic-claude-sonnet-4-6-released-how-to-try-benchmark-performance",
+    "category": "llm",
+    "week": "2026-W09",
+    "publishedAt": "2026-02-23"
+  },
+  {
+    "id": "recvc2MxdJv8uP",
+    "title": "I quit ChatGPT — here's how I moved everything to Claude and Gemini without losing my data (or my mind) - Tom's Guide",
+    "summary": "用户分享如何从 ChatGPT 迁移到 Claude 和 Gemini，包括数据迁移和替代方案的实用指南。",
+    "source": "Web",
+    "url": "https://www.tomsguide.com/ai/i-quit-chatgpt-heres-how-i-moved-everything-to-claude-and-gemini-without-losing-my-data-or-my-mind",
+    "category": "llm",
+    "week": "2026-W09",
+    "publishedAt": "2026-02-23"
+  },
+  {
+    "id": "recvc2MxCvC2mR",
+    "title": "Google germinates Gemini 3.1 Pro in ongoing AI model race - theregister.com",
+    "summary": "Google 发布 Gemini 3.1 Pro，在多项基准测试中取得高分，推理能力显著提升，进一步加剧 AI 模型竞争。",
+    "source": "Web",
+    "url": "https://www.theregister.com/2026/02/19/google_germinates_gemini_31_pro/",
+    "category": "llm",
+    "week": "2026-W09",
+    "publishedAt": "2026-02-23"
+  },
+  {
+    "id": "recvc2My3ii6qZ",
+    "title": "Small Business Technology News: How Will ChatGPT Ads Actually Work? - Forbes",
+    "summary": "AI 领域最新动态，点击链接查看详情。",
+    "source": "Web",
+    "url": "https://www.forbes.com/sites/quickerbettertech/2026/02/21/small-business-technology-news-how-will-chatgpt-ads-actually-work/",
+    "category": "llm",
+    "week": "2026-W09",
+    "publishedAt": "2026-02-23"
+  },
+  {
+    "id": "recvc2MyrleFqg",
+    "title": "The Post-Chatbot Era Has Begun - The Atlantic",
+    "summary": "The Atlantic 深度报道：后聊天机器人时代已经开始，AI Agent 正取代传统聊天机器人，Claude Code 标志着新范式。",
+    "source": "Web",
+    "url": "https://www.theatlantic.com/technology/2026/02/post-chatbot-claude-code-ai-agents/686029/?utm_medium=offsite&utm_source=google&utm_campaign=newsstand-technology",
+    "category": "agent",
+    "week": "2026-W09",
+    "publishedAt": "2026-02-23"
+  },
+  {
+    "id": "recvc2MyRIQ8uo",
+    "title": "Anthropic's Claude Code creator predicts software engineering title will start to 'go away' in 2026 - Business Insider",
+    "summary": "Anthropic 的 Claude Code 创建者预测，软件工程师的职位将在 2026 年开始消失，AI Agent 将改变所有计算机相关工作。",
+    "source": "Web",
+    "url": "https://www.businessinsider.com/anthropic-claude-code-founder-ai-impacts-software-engineer-role-2026-2",
+    "category": "agent",
+    "week": "2026-W09",
+    "publishedAt": "2026-02-23"
+  },
+  {
+    "id": "recvc2MziZdi74",
+    "title": "AI can now hunt software bugs on its own. Anthropic is turning that into a security tool - Fortune",
+    "summary": "Anthropic 推出 Claude Code Security，AI 驱动的漏洞扫描工具，可以自动检测代码中的安全漏洞。",
+    "source": "Web",
+    "url": "https://fortune.com/2026/02/20/exclusive-anthropic-rolls-out-ai-tool-that-can-hunt-software-bugs-on-its-own-including-the-most-dangerous-ones-humans-miss/",
+    "category": "agent",
+    "week": "2026-W09",
+    "publishedAt": "2026-02-23"
+  },
+  {
+    "id": "recvc2MzKkRfqR",
+    "title": "A top Anthropic engineer warns AI agents will transform every computer-based job in America — and it will be 'painful' - Business Insider",
+    "summary": "Anthropic 表示其最新的 Claude 模型在使用计算机方面越来越熟练，可以自主完成浏览网页、操作软件等任务，标志着 AI Agent 的重要进步。",
+    "source": "Web",
+    "url": "https://www.businessinsider.com/anthropic-boris-cherny-ai-impact-computer-jobs-painful-change-2026-2",
+    "category": "agent",
+    "week": "2026-W09",
+    "publishedAt": "2026-02-23"
+  },
+  {
+    "id": "recvc2MA9zOVPy",
+    "title": "Meta expands Nvidia deal to use millions of AI chips in data center build-out, including standalone CPUs - CNBC",
+    "summary": "Meta 与英伟达达成大规模芯片交易，将购买数百万颗 AI 芯片，用于建设 AI 优化的数据中心。",
+    "source": "Web",
+    "url": "https://www.cnbc.com/2026/02/17/meta-nvidia-deal-ai-data-center-chips.html",
+    "category": "chip",
+    "week": "2026-W09",
+    "publishedAt": "2026-02-23"
+  },
+  {
+    "id": "recvc2MAzgsOCx",
+    "title": "Meta’s new deal with Nvidia buys up millions of AI chips - The Verge",
+    "summary": "Meta 与英伟达达成大规模芯片交易，将购买数百万颗 AI 芯片，用于建设 AI 优化的数据中心。",
+    "source": "Web",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/880513/nvidia-meta-ai-grace-vera-chips",
+    "category": "chip",
+    "week": "2026-W09",
+    "publishedAt": "2026-02-23"
+  },
+  {
+    "id": "recvc2MAZsgPhR",
+    "title": "Meta commits billions to Nvidia chips - Axios",
+    "summary": "Meta 与英伟达达成大规模芯片交易，将购买数百万颗 AI 芯片，用于建设 AI 优化的数据中心。",
+    "source": "Web",
+    "url": "https://www.axios.com/2026/02/17/meta-nvidia-gpu-cpu-deal",
+    "category": "chip",
+    "week": "2026-W09",
+    "publishedAt": "2026-02-23"
+  },
+  {
+    "id": "recvc2MBpPSEhF",
+    "title": "Meta and NVIDIA Announce Long-Term Infrastructure Partnership - Meta Store",
+    "summary": "Meta 与英伟达达成大规模芯片交易，将购买数百万颗 AI 芯片，用于建设 AI 优化的数据中心。",
+    "source": "Web",
+    "url": "https://about.fb.com/news/2026/02/meta-nvidia-announce-long-term-infrastructure-partnership/",
+    "category": "chip",
+    "week": "2026-W09",
+    "publishedAt": "2026-02-23"
+  },
+  {
+    "id": "recvc2MBOvtd6B",
+    "title": "Nvidia is partnering with major Indian VC firms in search for the country's next AI start-ups - CNBC",
+    "summary": "英伟达与印度顶级风投合作，寻找和投资该国 AI 创业公司，扩展全球 AI 生态系统。",
+    "source": "Web",
+    "url": "https://www.cnbc.com/2026/02/18/nvidia-india-ai-vc-data-center-partners.html",
+    "category": "chip",
+    "week": "2026-W09",
+    "publishedAt": "2026-02-23"
+  },
+  {
+    "id": "recvc2MCfn6DmR",
+    "title": "OpenAI's OpenClaw hire sparks praise, memes, and rivalry chatter - Business Insider",
+    "summary": "OpenClaw 相关新闻：OpenAI 聘请了 OpenClaw 创始人，AI Agent 框架持续受到关注。",
+    "source": "Web",
+    "url": "https://www.businessinsider.com/openais-openclaw-hire-sparks-praise-memes-rivalry-chatter-2026-2",
+    "category": "opensource",
+    "week": "2026-W09",
+    "publishedAt": "2026-02-23"
+  },
+  {
+    "id": "recvc2MCEjtr8P",
+    "title": "Open-source game engine Godot is drowning in 'AI slop' code contributions: 'I don't know how long we can keep it up' - PC Gamer",
+    "summary": "开源项目动态：AI 生成代码对开源项目的影响，维护者面临新的挑战。",
+    "source": "Web",
+    "url": "https://www.pcgamer.com/software/platforms/open-source-game-engine-godot-is-drowning-in-ai-slop-code-contributions-i-dont-know-how-long-we-can-keep-it-up/",
+    "category": "opensource",
+    "week": "2026-W09",
+    "publishedAt": "2026-02-23"
+  },
+  {
+    "id": "recvc2MD4AEJa8",
+    "title": "OpenClawd Releases Managed Clawdbot Platform - Timed to Meet Surging Demand After OpenClaw Creator Joins OpenAI - Digital Journal",
+    "summary": "OpenClaw 相关新闻：OpenAI 聘请了 OpenClaw 创始人，AI Agent 框架持续受到关注。",
+    "source": "Web",
+    "url": "https://www.digitaljournal.com/pr/news/access-newswire/openclawd-releases-managed-clawdbot-platform-1812577063.html",
+    "category": "opensource",
+    "week": "2026-W09",
+    "publishedAt": "2026-02-23"
+  },
+  {
+    "id": "recvc2MDtgRxGp",
+    "title": "What About The Droid Attack On The Repos? - Hackaday",
+    "summary": "AI 领域最新动态，点击链接查看详情。",
+    "source": "Web",
+    "url": "https://hackaday.com/2026/02/22/what-about-the-droid-attack-on-the-repos/",
+    "category": "opensource",
+    "week": "2026-W09",
+    "publishedAt": "2026-02-23"
+  },
+  {
+    "id": "recvc2MDTawjQD",
+    "title": "After Microsoft couldn't keep its AI hands to itself, a notoriously complex Linux distro has started its long march away from GitHub - PC Gamer",
+    "summary": "Microsoft 在 AI 领域的战略调整，追求 AI 能力自给自足。",
+    "source": "Web",
+    "url": "https://www.pcgamer.com/software/linux/after-microsoft-couldnt-keep-its-ai-hands-to-itself-a-notoriously-complex-linux-distro-has-started-its-long-march-away-from-github/",
+    "category": "opensource",
+    "week": "2026-W09",
+    "publishedAt": "2026-02-23"
+  },
+  {
+    "id": "recvc2MEhXeS3Q",
+    "title": "The AI trade is swallowing the market - Axios",
+    "summary": "AI 领域最新动态，点击链接查看详情。",
+    "source": "Web",
+    "url": "https://www.axios.com/2026/02/17/wall-street-ai-bet-risk",
+    "category": "funding",
+    "week": "2026-W09",
+    "publishedAt": "2026-02-23"
+  },
+  {
+    "id": "recvc2MEHkXs5h",
+    "title": "Nvidia considering $30 million investment in OpenAI - Reuters - Finextra Research",
+    "summary": "AI 领域融资活跃，多家创业公司获得大额投资，行业投资热度不减。",
+    "source": "Web",
+    "url": "https://www.finextra.com/newsarticle/47331/nvidia-considering-30-million-investment-in-openai---reuters",
+    "category": "funding",
+    "week": "2026-W09",
+    "publishedAt": "2026-02-23"
+  },
+  {
+    "id": "recvc2MF7uqeBW",
+    "title": "14 'Second Wave' startups aiming to take the AI era beyond cost cutting - Business Insider",
+    "summary": "AI 领域最新动态，点击链接查看详情。",
+    "source": "Web",
+    "url": "https://www.businessinsider.com/second-wave-startups-list-ai-era-beyond-cost-cutting-2026-2",
+    "category": "funding",
+    "week": "2026-W09",
+    "publishedAt": "2026-02-23"
+  },
+  {
+    "id": "recvc2MFxm6Otu",
+    "title": "Fierce Healthcare Fundraising Tracker '26: Big Health nabs $24M; Talkiatry scores $210M - Fierce Healthcare",
+    "summary": "AI 领域最新动态，点击链接查看详情。",
+    "source": "Web",
+    "url": "https://www.fiercehealthcare.com/health-tech/fierce-healthcare-fundraising-tracker-26",
+    "category": "funding",
+    "week": "2026-W09",
+    "publishedAt": "2026-02-23"
+  },
+  {
+    "id": "recvc2MFWbCi4T",
+    "title": "Here are the 17 US-based AI companies that have raised $100m or more in 2026 - TechCrunch",
+    "summary": "AI 领域融资活跃，多家创业公司获得大额投资，行业投资热度不减。",
+    "source": "Web",
+    "url": "https://techcrunch.com/2026/02/17/here-are-the-17-us-based-ai-companies-that-have-raised-100m-or-more-in-2026/",
+    "category": "funding",
+    "week": "2026-W09",
+    "publishedAt": "2026-02-23"
+  },
+  {
+    "id": "recvc2MGm5BDPz",
+    "title": "IFR releases position paper on AI in robotics - The Robot Report",
+    "summary": "AI 研究领域持续突破，新论文探讨通用智能、安全等前沿问题。",
+    "source": "Web",
+    "url": "https://www.therobotreport.com/ifr-releases-position-paper-ai-robotics/",
+    "category": "research",
+    "week": "2026-W09",
+    "publishedAt": "2026-02-23"
+  },
+  {
+    "id": "recvc2MGN5U4jX",
+    "title": "New Research Shows AI Agents Are Running Wild Online, With Few Guardrails in Place - Gizmodo",
+    "summary": "AI 研究领域持续突破，新论文探讨通用智能、安全等前沿问题。",
+    "source": "Web",
+    "url": "https://gizmodo.com/new-research-shows-ai-agents-are-running-wild-online-with-few-guardrails-in-place-2000724181",
+    "category": "research",
+    "week": "2026-W09",
+    "publishedAt": "2026-02-23"
+  },
+  {
+    "id": "recvc2MHdE8KTP",
+    "title": "Statistical approximation is not general intelligence - Nature",
+    "summary": "AI 领域最新动态，点击链接查看详情。",
+    "source": "Web",
+    "url": "https://www.nature.com/articles/d41586-026-00495-y",
+    "category": "research",
+    "week": "2026-W09",
+    "publishedAt": "2026-02-23"
+  },
+  {
+    "id": "recvc2MHCva2SN",
+    "title": "AI-powered vibe extortion emerges as new threat trend - SC Media",
+    "summary": "AI 领域最新动态，点击链接查看详情。",
+    "source": "Web",
+    "url": "https://www.scworld.com/brief/ai-powered-vibe-extortion-emerges-as-new-threat-trend",
+    "category": "research",
+    "week": "2026-W09",
+    "publishedAt": "2026-02-23"
+  },
+  {
+    "id": "recvc2MI31cBBI",
+    "title": "No one can agree on whether AI is the next big thing or all hype. Here’s why - CNN",
+    "summary": "AI 领域最新动态，点击链接查看详情。",
+    "source": "Web",
+    "url": "https://www.cnn.com/2026/02/19/tech/ai-jobs-big-thing-hype",
+    "category": "research",
+    "week": "2026-W09",
+    "publishedAt": "2026-02-23"
+  },
+  {
+    "id": "recvd92GNZ5ivJ",
+    "title": "OpenAI, in Desperate Need of a Win, Launches GPT-5.4 - Gizmodo",
+    "summary": "OpenAI 在国防部合作争议后急需挽回公众信任，发布 GPT-5.4 模型试图扭转局面。",
+    "source": "Web",
+    "url": "https://gizmodo.com/openai-in-desperate-need-of-a-win-launches-gpt-5-4-2000730268",
+    "category": "llm",
+    "week": "2026-W10",
+    "publishedAt": "2026-03-07"
+  },
+  {
+    "id": "recvd92Hpgcan4",
+    "title": "Google’s Gemini rolls out Canvas in AI mode to all US users - TechCrunch",
+    "summary": "Google 将 Gemini 的 Canvas AI 模式扩展至所有美国用户，提供更强大的 AI 交互功能。",
+    "source": "Web",
+    "url": "https://techcrunch.com/2026/03/04/googles-gemini-rolls-out-canvas-in-ai-mode-to-all-us-users/",
+    "category": "llm",
+    "week": "2026-W10",
+    "publishedAt": "2026-03-07"
+  },
+  {
+    "id": "recvd92HSKCTEl",
+    "title": "New ChatGPT 5.4 Model Is 'Built for Agents.' Will It Lure Back Claude Converts? - CNET",
+    "summary": "OpenAI 发布 GPT-5.4 模型，专为 AI Agent 设计，试图从 Claude 手中夺回用户。",
+    "source": "Web",
+    "url": "https://www.cnet.com/tech/services-and-software/openai-chatgpt-5-4-thinking-news/",
+    "category": "llm",
+    "week": "2026-W10",
+    "publishedAt": "2026-03-07"
+  },
+  {
+    "id": "recvd92IkweAt4",
+    "title": "OpenAI launches GPT-5.3 Instant to improve ChatGPT’s most-used model - The Next Web",
+    "summary": "OpenAI 发布 GPT-5.3 Instant，改进 ChatGPT 最常用模型的性能。",
+    "source": "Web",
+    "url": "https://thenextweb.com/news/openai-launches-gpt-5-3-instant-to-improve-chatgpts-most-used-model",
+    "category": "llm",
+    "week": "2026-W10",
+    "publishedAt": "2026-03-07"
+  },
+  {
+    "id": "recvd92IPEpFdi",
+    "title": "ChatGPT vs Claude: I put both default models through 7 real-world tests — one is the clear winner - Tom's Guide",
+    "summary": "ChatGPT vs Claude 对比测试：作者对两款默认模型进行 7 项真实世界测试，发现明显赢家。",
+    "source": "Web",
+    "url": "https://www.tomsguide.com/ai/chatgpt-vs-claude-i-put-both-default-models-through-7-real-world-tests-one-is-the-clear-winner",
+    "category": "llm",
+    "week": "2026-W10",
+    "publishedAt": "2026-03-07"
+  },
+  {
+    "id": "recvd92Jikdj7m",
+    "title": "Anthropic Launches Voice Mode for Claude Code - MLQ.ai",
+    "summary": "Anthropic 为 Claude Code 推出语音模式，开发者可通过语音输入命令，提升编程效率。",
+    "source": "Web",
+    "url": "https://mlq.ai/news/anthropic-launches-voice-mode-for-claude-code/",
+    "category": "agent",
+    "week": "2026-W10",
+    "publishedAt": "2026-03-07"
+  },
+  {
+    "id": "recvd92JKtSMtP",
+    "title": "Entire Accenture workforce to be outperformed by 24-year-old with Claude AI, warns Y Combinator partner - The Financial Express",
+    "summary": "Y Combinator 合伙人警告：24 岁开发者使用 Claude AI 的效率将超越整个埃森哲团队。",
+    "source": "Web",
+    "url": "https://www.financialexpress.com/life/technology-entire-accenture-workforce-to-be-outperformed-by-24-year-old-with-claude-ai-warns-y-combinator-partner-4160248/",
+    "category": "agent",
+    "week": "2026-W10",
+    "publishedAt": "2026-03-07"
+  },
+  {
+    "id": "recvd92Kdtq3tA",
+    "title": "Melbourne AI Agency Enterprise Monkey Quits ChatGPT Over Pentagon Deal - markets.businessinsider.com",
+    "summary": "墨尔本 AI 代理公司 Enterprise Monkey 因五角大楼合作事件退出 ChatGPT。",
+    "source": "Web",
+    "url": "https://markets.businessinsider.com/news/stocks/melbourne-ai-agency-enterprise-monkey-quits-chatgpt-over-pentagon-deal-1035882514",
+    "category": "agent",
+    "week": "2026-W10",
+    "publishedAt": "2026-03-07"
+  },
+  {
+    "id": "recvd92KEkVYkI",
+    "title": "Claude Code rolls out a voice mode capability - TechCrunch",
+    "summary": "Anthropic 为 Claude Code 推出语音模式，让开发者通过语音命令控制 AI 编程助手。",
+    "source": "Web",
+    "url": "https://techcrunch.com/2026/03/03/claude-code-rolls-out-a-voice-mode-capability/",
+    "category": "agent",
+    "week": "2026-W10",
+    "publishedAt": "2026-03-07"
+  },
+  {
+    "id": "recvd92L6AXk89",
+    "title": "Claude’s consumer growth surge continues after Pentagon deal debacle - TechCrunch",
+    "summary": "Claude 在五角大楼合作风波后用户增长持续飙升，日活跃用户和新安装量大幅上升。",
+    "source": "Web",
+    "url": "https://techcrunch.com/2026/03/06/claudes-consumer-growth-surge-continues-after-pentagon-deal-debacle/",
+    "category": "agent",
+    "week": "2026-W10",
+    "publishedAt": "2026-03-07"
+  },
+  {
+    "id": "recvd92LxTjpUt",
+    "title": "Nvidia’s spending $4 billion on photonics to stay ahead of the curve in AI - The Verge",
+    "summary": "英伟达投资 40 亿美元发展光子技术，使用 Lumentum 和 Coherent 的技术连接数据中心 GPU。",
+    "source": "Web",
+    "url": "https://www.theverge.com/tech/887635/nvidia-ai-photonics-lumentum-coherent",
+    "category": "chip",
+    "week": "2026-W10",
+    "publishedAt": "2026-03-07"
+  },
+  {
+    "id": "recvd92LZPimqz",
+    "title": "NVIDIA and Coherent Announce Strategic Partnership to Develop Optics Technology to Scale Next-Generation Data Center Architecture - NVIDIA Newsroom",
+    "summary": "英伟达与 Coherent 达成战略合作伙伴关系，共同开发光学技术以扩展下一代数据中心架构。",
+    "source": "Web",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-and-coherent-announce-strategic-partnership-to-develop-optics-technology-to-scale-next-generation-data-center-architecture",
+    "category": "chip",
+    "week": "2026-W10",
+    "publishedAt": "2026-03-07"
+  },
+  {
+    "id": "recvd92MswIJVq",
+    "title": "Exclusive | Nvidia Plans New Chip to Speed AI Processing, Shake Up Computing Market - WSJ",
+    "summary": "英伟达计划推出新芯片以加速 AI 处理，意图颠覆计算市场。",
+    "source": "Web",
+    "url": "https://www.wsj.com/tech/ai/nvidia-plans-new-chip-to-speed-ai-processing-shake-up-computing-market-51c9b86e?gaa_at=eafs&gaa_n=AWEtsqesTrTNsX4QOpyyrmjPUNVXjmIc1L3_85JK3SCKTlDOIp6SnEsSmAZz&gaa_ts=69a2915f&gaa_sig=IoP3UKnUxJ3pa58W6Mnv8wNnsNaBPB1rjNx8KmEZVZJ1Xj3fQkHmoPNQPFphjmCFRdh5wxW9ag09_iNxY2qGJQ%3D%3D",
+    "category": "chip",
+    "week": "2026-W10",
+    "publishedAt": "2026-03-07"
+  },
+  {
+    "id": "recvd92MTMtarU",
+    "title": "Nvidia plans new chip to speed AI processing, WSJ reports - Reuters",
+    "summary": "https://www.reuters.com/business/nvidia-plans-new-chip-speed-ai-processing-wsj-reports-2026-02-28/ # Nvidia plans new chip to speed AI processing, WSJ reports. Feb 27 (Reuters) - Nvidia (NVDA.O), opens new tab plans to launch a new processor designed to help OpenAI and other customers build faster, ...",
+    "source": "Web",
+    "url": "https://www.reuters.com/business/nvidia-plans-new-chip-speed-ai-processing-wsj-reports-2026-02-28/",
+    "category": "chip",
+    "week": "2026-W10",
+    "publishedAt": "2026-03-07"
+  },
+  {
+    "id": "recvd92NkpqcI5",
+    "title": "AI for investors - MLQ.ai",
+    "summary": "https://mlq.ai/news/nvidia-ceo-huang-signals-30b-openai-stake-as-likely-final-pre-ipo-move/ * Nvidia CEO Jensen Huang stated at the Morgan Stanley Technology, Media & Telecom Conference that the company's $30 billion OpenAI investment may be its last before the AI firm goes public[1]. Nvidia CEO Jen...",
+    "source": "Web",
+    "url": "https://mlq.ai/news/nvidia-ceo-huang-signals-30b-openai-stake-as-likely-final-pre-ipo-move/",
+    "category": "chip",
+    "week": "2026-W10",
+    "publishedAt": "2026-03-07"
+  },
+  {
+    "id": "recvd92NLXOJUT",
+    "title": "OpenAI is developing alternative to Microsoft's GitHub, The Information reports - Reuters",
+    "summary": "OpenAI 正在开发微软 GitHub 的替代品，The Information 报道。",
+    "source": "Web",
+    "url": "https://www.reuters.com/business/openai-is-developing-alternative-microsofts-github-information-reports-2026-03-03/",
+    "category": "opensource",
+    "week": "2026-W10",
+    "publishedAt": "2026-03-07"
+  },
+  {
+    "id": "recvd92OdtXBnn",
+    "title": "AI-powered attack kits go open source, and CyberStrikeAI may be just the beginning - csoonline.com",
+    "summary": "AI 攻击工具包开源化，CyberStrikeAI 可能只是开始，包含 100 多种工具覆盖整个攻击链。",
+    "source": "Web",
+    "url": "https://www.csoonline.com/article/4140221/ai-powered-attack-kits-go-open-source-and-cyberstrikeai-may-be-just-the-beginning.html",
+    "category": "opensource",
+    "week": "2026-W10",
+    "publishedAt": "2026-03-07"
+  },
+  {
+    "id": "recvd92OGwTyOs",
+    "title": "AI Agents Choose Bitcoin. This New Study Explains Why - Forbes",
+    "summary": "研究显示 AI Agent 更倾向于选择比特币而非法定货币。",
+    "source": "Web",
+    "url": "https://www.forbes.com/sites/digital-assets/2026/03/03/ai-agents-prefer-bitcoin-over-fiat-new-study-finds/",
+    "category": "opensource",
+    "week": "2026-W10",
+    "publishedAt": "2026-03-07"
+  },
+  {
+    "id": "recvd92P8i8tyK",
+    "title": "This $35,000 computer made of living human neurons can run Doom - TechSpot",
+    "summary": "https://www.techspot.com/news/111506-35000-computer-made-living-human-neurons-can-run.html",
+    "source": "Web",
+    "url": "https://www.techspot.com/news/111506-35000-computer-made-living-human-neurons-can-run.html",
+    "category": "opensource",
+    "week": "2026-W10",
+    "publishedAt": "2026-03-07"
+  },
+  {
+    "id": "recvd92PB3Yzac",
+    "title": "Cursor Releases Automations Platform for AI Coding Agent Management - MLQ.ai",
+    "summary": "Cursor 发布 Automations 平台，可基于代码提交、Slack 消息等事件自动触发 AI 编程 Agent。",
+    "source": "Web",
+    "url": "https://mlq.ai/news/cursor-releases-automations-platform-for-ai-coding-agent-management/",
+    "category": "opensource",
+    "week": "2026-W10",
+    "publishedAt": "2026-03-07"
+  },
+  {
+    "id": "recvd92Q8yzcdQ",
+    "title": "Family offices double down on AI investments as startup fundraising breaks record in February - CNBC",
+    "summary": "家族办公室加倍投资 AI，2 月创业公司融资创纪录，尽管存在 AI 泡沫担忧。",
+    "source": "Web",
+    "url": "https://www.cnbc.com/2026/03/05/family-offices-ai-investments.html",
+    "category": "funding",
+    "week": "2026-W10",
+    "publishedAt": "2026-03-07"
+  },
+  {
+    "id": "recvd92QzxoZJ8",
+    "title": "AI Industry Pledge to Fund Data Center Power Costs - Startup Ecosystem Canada",
+    "summary": "AI 行业承诺资助数据中心电力成本，特朗普政府要求科技公司支付发电费用。",
+    "source": "Web",
+    "url": "https://www.startupecosystem.ca/news/ai-industry-pledge-to-fund-data-center-power-costs/",
+    "category": "funding",
+    "week": "2026-W10",
+    "publishedAt": "2026-03-07"
+  },
+  {
+    "id": "recvd92R4UHP6l",
+    "title": "DealFlowAgent raises $750,000 to automate small business M&A - The Next Web",
+    "summary": "DealFlowAgent 融资 75 万美元，用于自动化中小企业并购流程。",
+    "source": "Web",
+    "url": "https://thenextweb.com/news/dealflowagent-ai-sme-ma-long-journey-ventures",
+    "category": "funding",
+    "week": "2026-W10",
+    "publishedAt": "2026-03-07"
+  },
+  {
+    "id": "recvd92RxyFYbG",
+    "title": "Ex-Zomato CEO's new startup and xAI's early payback - Axios",
+    "summary": "https://amp.axios.com/pro-rata-premium-first-look-march22026-8b7938f9-3f55-4270-baeb-fc912b25bffc.html",
+    "source": "Web",
+    "url": "https://amp.axios.com/pro-rata-premium-first-look-march22026-8b7938f9-3f55-4270-baeb-fc912b25bffc.html",
+    "category": "funding",
+    "week": "2026-W10",
+    "publishedAt": "2026-03-07"
+  },
+  {
+    "id": "recvd92RYg09Rw",
+    "title": "Noda AI, Smack Technologies detail their Series A capital rounds - Washington Technology",
+    "summary": "Noda AI 和 Smack Technologies 公布 A 轮融资详情，开发多自主系统编排软件。",
+    "source": "Web",
+    "url": "https://www.washingtontechnology.com/companies/2026/03/noda-ai-smack-technologies-detail-their-series-capital-rounds/411878/?oref=wt-homepage-river",
+    "category": "funding",
+    "week": "2026-W10",
+    "publishedAt": "2026-03-07"
+  },
+  {
+    "id": "recvd92Sqau3N0",
+    "title": "China’s AI Breakthroughs Put US Tech Dominance at Risk: Book Excerpt - Newsweek",
+    "summary": "中国 AI 突破威胁美国技术主导地位，但 OpenAI 和 Google 仍是标杆。",
+    "source": "Web",
+    "url": "https://www.newsweek.com/chinas-ai-breakthroughs-put-us-tech-dominance-at-risk-book-excerpt-11608975",
+    "category": "research",
+    "week": "2026-W10",
+    "publishedAt": "2026-03-07"
+  },
+  {
+    "id": "recvd92SQEjvco",
+    "title": "OpenAI’s new GPT-5.4 model is a big step toward autonomous agents - The Verge",
+    "summary": "OpenAI 的新 GPT-5.4 模型是向自主 Agent 迈出的重要一步。",
+    "source": "Web",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/889926/openai-gpt-5-4-model-release-ai-agents",
+    "category": "research",
+    "week": "2026-W10",
+    "publishedAt": "2026-03-07"
+  },
+  {
+    "id": "recvd92ThYQ2Gn",
+    "title": "About the Collection | Security, integrity and anomaly analytics for trustworthy multimodal AI - Nature",
+    "summary": "Nature 论文集：多模态 AI 的安全性、完整性和异常分析成为核心挑战。",
+    "source": "Web",
+    "url": "https://www.nature.com/collections/agchcjigce/about-the-collection",
+    "category": "research",
+    "week": "2026-W10",
+    "publishedAt": "2026-03-07"
+  },
+  {
+    "id": "recvd92TJozG1K",
+    "title": "Don’t Panic Yet: “Humanity’s Last Exam” Has Begun - SciTechDaily",
+    "summary": "不要恐慌：",
+    "source": "Web",
+    "url": "https://scitechdaily.com/dont-panic-yet-humanitys-last-exam-has-begun/",
+    "category": "research",
+    "week": "2026-W10",
+    "publishedAt": "2026-03-07"
+  },
+  {
+    "id": "recvd92UbG375X",
+    "title": "The Ethics of Saying 'No' to AI - Law.com",
+    "summary": "拒绝 AI 的伦理问题：法律行业如何面对 AI 技术的道德挑战。",
+    "source": "Web",
+    "url": "https://www.law.com/newyorklawjournal/2026/03/06/the-ethics-of-saying-no-to-ai/",
+    "category": "research",
+    "week": "2026-W10",
+    "publishedAt": "2026-03-07"
+  }
+]
